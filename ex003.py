@@ -1,0 +1,13 @@
+nome = input('qual o seu nome? ')
+print('olá, seja bem vindo ao nosso sistema {}!' .format(nome))
+print('vamos começar...')
+print('         ')
+n1 = float(input('digite um valor: '))
+n2 = float(input('digite outro valor:'))
+n3 = float(input('digite mais outro:'))
+print('                ')
+m = (n1 + n2 + n3) / 3
+print(' média entre {}, {} e {} é igual {:.1f}' .format(n1, n2, n3, m))
+print('                ')
+print('------------------------------------------------------------------')
+print('Obrigado por ultiliza nosso sistema! tchau.')
